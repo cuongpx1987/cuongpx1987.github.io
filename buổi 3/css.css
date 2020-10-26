@@ -25,7 +25,7 @@ margin-right: -5px;
 .menu_item{
     margin: 10px;
     }
-.menu_link{
+.tieude {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;padding-top: 10px;
@@ -48,4 +48,9 @@ margin-right: -5px;
 
 }
 
+.phanthan {
+    display:inline-block;
+    width: 100%;
+    padding: 15px;
 
+}
