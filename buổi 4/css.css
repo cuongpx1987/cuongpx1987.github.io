@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+}
+table,tr,th,td{
+    border: 1px solid red;
+}
+th,td{
+    width: 10px;
+    padding: 10px;
+.header{
+    background-color: red;
+}
+}
+#tieude1{   
+
+    border-left: 100px;
+    text-align: center;
+    text-align: middle;
+
+}
+
+body{
+   margin: 200px;
+ }
+table{
+    width:100%;
+    text-align: center;
+}
+#dacbiet{
+    width: 100%;
+}
