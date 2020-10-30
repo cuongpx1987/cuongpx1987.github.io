@@ -1,0 +1,44 @@
+div.group{
+    position: relative;
+    margin-top: 20px;
+}
+.group input{
+    height: 32px;
+    padding: 8px;
+}
+.group label{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    font-size: 16px;
+    color: grey;
+    transition: top 0.2s,left 0.2s;
+}
+input::placeholder{
+    opacity: 0;
+}
+.group input:focus + label{
+    top: -20px;
+    left: 0;
+    color: black;
+    }
+    input:not(placeholder-shown) + label{
+        top: -20px;
+        left: 0;
+        color: black;
+        }
+.form-wrapper{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255,0);
+}
+#signup:checked+.form-wrapper{
+    display: block;
+}
+#form-signup{
+    
+}
+    
