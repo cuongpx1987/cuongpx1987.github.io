@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-template-areas: ". . header header header header"
+    "aside aside aside main main"
+    "footer footer footer footer";
+    grid-template-columns: 100px 100px 1fr 1fr 1fr;
+    grid-template-rows: 100px minmax(calc(100vh -100px),auto) auto;
+    gap: 10px;
+}
+header{
+    grid-area: header;
+}
+aside{
+    grid-area: aside;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+header,main,aside,footer{
+    background-color: blue;
+}

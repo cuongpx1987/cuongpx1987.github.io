@@ -1,0 +1,43 @@
+input{
+    display: none;
+}
+label{
+    position: relative;
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    background-color:rgb(230,196,196);
+    border-radius: 25px;
+
+
+}
+label::before
+{
+ content: "";
+ display: inline-block;
+position: absolute;
+width: 0;
+height: 0x;
+background-color: white;
+border-radius: 50%;
+border-bottom: 0px solid red;
+border-left: 0px solid red;
+transform: rotate(-45deg);
+top: 10px;
+left: 8px;
+transition:  height 1s, width 1s 1s;
+}
+label::after
+{
+    content: ;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+}
+input:checked + label::before
+{
+    width: 30px;
+    height: 15px;
+}

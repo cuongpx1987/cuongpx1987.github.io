@@ -1,0 +1,36 @@
+.logo {
+  display: flex;
+  background-color: #f5f5f5;
+}
+.header {
+  display: flex;
+}
+.search {
+  margin-left: 500px;
+  background-color: #f5f5f5;
+}
+.overview {
+  max-width: 80%;
+  float: right;
+  background-color: #e5e5e5;
+}
+.menu-list {
+  max-width: 20%;
+  float: left;
+}
+img {
+  max-width: 250px;
+  margin: 0 20px;
+}
+.menulink-list {
+  text-decoration: none;
+}
+ul.menu-list {
+  list-style: none;
+}
+li.menu-item {
+  margin-top: 10px;
+}
+.aaa {
+  width: 400px;
+}
